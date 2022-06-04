@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <h1> Let's Get Started </h1>
+      <h1> Monthly Expenses </h1>
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}

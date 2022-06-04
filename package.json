@@ -2,7 +2,7 @@
   "name": "react-app-practice",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://hoshimotao.github.io/react-app-practice",
+  "homepage": "https://hoshimotao.github.io/react-app-practice",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
