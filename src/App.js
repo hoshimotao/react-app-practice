@@ -1,4 +1,4 @@
-import ExpenseItem from "./components/ExpenseItem";
+import Expenses from "./components/Expenses";
 
 function App() {
   // props
@@ -27,27 +27,7 @@ function App() {
   return (
     <div>
       <h1> Monthly Expenses </h1>
-      <ExpenseItem
-        title={expenses[0].title}
-        amount={expenses[0].amount}
-        itemDate={expenses[0].date} 
-        // passes property itemDate to ExpenseItem component with expenses[0].date
-      />
-      <ExpenseItem
-        title={expenses[1].title}
-        amount={expenses[1].amount}
-        itemDate={expenses[1].date}
-      />
-      <ExpenseItem
-        title={expenses[2].title}
-        amount={expenses[2].amount}
-        itemDate={expenses[2].date}
-      />
-      <ExpenseItem
-        title={expenses[3].title}
-        amount={expenses[3].amount}
-        itemDate={expenses[3].date}
-      />
+      <Expenses items={expenses} />
     </div>
   );
 }
