@@ -48,7 +48,6 @@ function App() {
 
   return (
     <div>
-      <h1> Monthly Expenses </h1>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
