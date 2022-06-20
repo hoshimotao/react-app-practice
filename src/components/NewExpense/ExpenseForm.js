@@ -22,7 +22,7 @@ const ExpenseForm = (props) => {
     // expenseData is hoisted up to NewExpense.js
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate.replace(/-/g, "/")),
     };
 
